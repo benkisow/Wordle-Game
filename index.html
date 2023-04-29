@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wordle App</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<!-- Header -->
+	<header>
+		<span id="Title">Wordle Game</span>
+		<!-- Navigation Bar -->
+		<nav>
+		
+		</nav>
+	</header>
+
+	<!-- Main panel for guesses -->
+	<div id="main-panel">
+
+		<!-- End of game message -->
+		<div id="endgame-message">
+			You Win!<br>
+			<button id="play-again-btn" onClick="window.location.reload();">Play Again</button>
+		</div>
+
+		<!-- Guess 1 -->
+		<div class="guess">
+			<form id="guess-1" class="guess-form" autocomplete="off">
+				<div class="letter">
+					<input type="text" name="letter-1" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-2" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-3" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-4" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-5" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+			</form>
+		</div>
+		<!-- Guess 2 -->
+		<div class="guess">
+			<form id="guess-2" class="guess-form" autocomplete="off">
+				<div class="letter">
+					<input type="text" name="letter-1" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-2" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-3" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-4" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-5" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+			</form>
+		</div>
+		<!-- Guess 3 -->
+		<div class="guess">
+			<form id="guess-3" class="guess-form" autocomplete="off">
+				<div class="letter">
+					<input type="text" name="letter-1" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-2" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-3" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-4" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-5" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+			</form>
+		</div>
+		<!-- Guess 4 -->
+		<div class="guess">
+			<form id="guess-4" class="guess-form" autocomplete="off">
+				<div class="letter">
+					<input type="text" name="letter-1" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-2" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-3" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-4" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-5" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+			</form>
+		</div>
+		<!-- Guess 5 -->
+		<div class="guess">
+			<form id="guess-5" class="guess-form" autocomplete="off">
+				<div class="letter">
+					<input type="text" name="letter-1" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-2" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-3" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-4" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-5" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+			</form>
+		</div>
+		<!-- Guess 6 -->
+		<div class="guess">
+			<form id="guess-6" class="guess-form" autocomplete="off">
+				<div class="letter">
+					<input type="text" name="letter-1" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-2" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-3" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-4" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+				<div class="letter">
+					<input type="text" name="letter-5" maxlength="1" class="letter-input" disabled oninput="onInput(this);">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
