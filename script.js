@@ -39,6 +39,15 @@ allInputs.forEach(function (value, i) {
 	})
 })
 
+// Add event listener to play again button for enter
+var playAgainBtn = document.getElementById("play-again-btn");
+
+playAgainBtn.addEventListener("keydown", function(event) {
+	if (event.key == "Enter") {
+		playAgainBtn.click()
+	}
+})
+
 // Function for if user wins the game
 function youWin() {
 	document.getElementById("endgame-message").style.visibility = "visible";
