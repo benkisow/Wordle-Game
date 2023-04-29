@@ -39,11 +39,11 @@ allInputs.forEach(function (value, i) {
 	})
 })
 
-
 // Function for if user wins the game
 function youWin() {
 	document.getElementById("endgame-message").style.visibility = "visible";
 	document.getElementById("endgame-message").innerHTML = "You Win!<br><button id='play-again-btn' onClick='window.location.reload();''>Play Again</button>";
+	document.getElementById("play-again-btn").focus();
 }
 
 
@@ -75,6 +75,7 @@ function checkGuess(form) {
 		if (form == "guess-6") {
 			document.getElementById("endgame-message").style.visibility = "visible";
 			document.getElementById("endgame-message").innerHTML = "You didn't get it!<br>The word was " + correctWord + "<br><button id='play-again-btn' onClick='window.location.reload();''>Play Again</button>";
+			document.getElementById("play-again-btn").focus();
 		}
 		return false;
 	}
