@@ -5,7 +5,7 @@ var wordList = ['TOPIC','CLUCK','MARRY','GRILL','FACTS','CEDAR','CLEAN','STAFF',
 		,'BLEEP','SHOPS','COILS','DASHI','CAMPY','BLACK','ASHES','MATES','AGREE','FLEAS','BONKS','CLONE','LISTS','FRIED','DIKES'
 		,'ELVES','EWERS','CRIER','COVEY','GRAPE','NOTCH','SLICE','BURRO','FISTS','WIRED','FUNNY','DAMES','TERMS','CREPE','DOLED'
 		,'SOULS','DOPED','ITEMS','BIRTH','CHUGS','DIPPY','CHAPS','FORMS','SKINS','SIGHT','CAPON','ERROR','SQUAD','DELFT','FILLY'
-		,'POSED','ASSET','LIVED','DUOMO','FELON','COLTS','BURKA','BOUGH','STEMS','COOPS','TABLE']
+		,'POSED','ASSET','LIVED','DUOMO','FELON','COLTS','BURKA','BOUGH','STEMS','COOPS','TABLE','JACOB','MASTS']
 var numberOfWords = wordList.length;
 var randomNumber = Math.floor(Math.random() * numberOfWords);
 var correctWord = wordList[randomNumber];
