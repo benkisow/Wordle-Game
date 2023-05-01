@@ -1,4 +1,5 @@
-// FOR TESTING - CORRECT WORD IS TRACE
+// Define the list of words and pick a random one
+
 var wordList = ['TOPIC','CLUCK','MARRY','GRILL','FACTS','CEDAR','CLEAN','STAFF','CRISP','PAUSE','DUSKY','CHUGS','TIRES','WHILE','CLADE'
 		,'HIGHS','HANGS','EDGED','CUSHY','DRYER','RESIN','BEADS','HEELS','BOOBY','HOTEL','HOPES','FINCH','HANDS','BONGO','CARTS'
 		,'DOUBT','BURNS','BULBS','SAUCE','PAPER','BARMY','CRAPE','GHOST','SCOPE','BELLY','DOPES','EXACT','BARGE','AGGRO','BLUFF'
@@ -9,7 +10,6 @@ var wordList = ['TOPIC','CLUCK','MARRY','GRILL','FACTS','CEDAR','CLEAN','STAFF',
 var numberOfWords = wordList.length;
 var randomNumber = Math.floor(Math.random() * numberOfWords);
 var correctWord = wordList[randomNumber];
-// FOR TESTING - CORRECT WORD IS TRACE
 
 
 // Enable first input and put focus on it
